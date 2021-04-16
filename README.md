@@ -1,2 +1,2 @@
 # EVA6
-Extensive Vision AI - The Dawn of Transformers
+Extensive Vision AI - The Dawn of Transformers for Computer Vision
