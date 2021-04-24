@@ -4,6 +4,13 @@
 </p>
 
 ---
-
-### The Sequence
+## What is this About?
+---
+### Our Team
+- [Madhu Charan](https://github.com/madhucharan)
+- [Sijuade](https://github.com/cydal)
+- [Siddharth Aggarwal](https://github.com/aggarwalsiddharth)
+- [Deepika](https://github.com/dpkeee)
+---
+### The Journey
 
