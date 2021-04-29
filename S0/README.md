@@ -25,7 +25,7 @@ Lets say we have wordcloud consisting of different words as the following figure
 
 Note: All the similar features fits into a same channel and each different channel has a different feature in it.</p>
 
-<p>For a more clear picture of understanding we can define a channel(for any case like lets consider a picture) as "A Channel consists of a certain type of having one or more occurences.
+<p>For a more clear picture of understanding we can define a channel(for any case like lets consider a picture) as "A Channel consists of a certain type of feature having one or more occurences."
 
 Now, Consider an image of a rectangle.It has two vertical and two horizantal lines.For understansing lets consider them as features.Now all the vertical lines/edges will fit into one channel and the horizontal ones into other and thus forming two channels. </p>
 
