@@ -91,7 +91,7 @@ So 99 convolutions are needed to reach 1x1 matrix or pixel from 199x199 and the 
 
 <p>The question is how are the kernel values initialized.
 
-The kernel values are initialized in such a way that it gives us the maximum value for the feature or relative feature the kernel is trying to find out in the given picture.
+The kernel values are initialized in such a way that the initial values do not overly bias the direction of the optimized values
 
 This can be elaborated as follows.
 
