@@ -14,3 +14,5 @@
 ---
 ### The Journey
 
+
+- __Session 0 - Background & Basics: Machine Learning Intuition__ - [Assignment](https://github.com/madhucharan/EVA6/tree/main/S0)
