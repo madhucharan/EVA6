@@ -1,4 +1,4 @@
-<h1 align="center">Session 1</h1>
+<h1 align="center">Session 0</h1>
 
 ---
 
