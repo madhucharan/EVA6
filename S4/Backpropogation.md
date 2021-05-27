@@ -1,5 +1,6 @@
 # Backpropogation
 
+![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1)
 
 In this assignment, we have made use of the Gradient Descend to train a Neural Network.
 In the image, we have the following main components:
