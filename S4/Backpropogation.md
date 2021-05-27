@@ -1,7 +1,7 @@
 # Backpropogation
-a
+
 ![formula](https://render.githubusercontent.com/render/math?math=a%2Bb)
-a
+
 
 In this assignment, we have made use of the Gradient Descend to train a Neural Network.
 In the image, we have the following main components:
