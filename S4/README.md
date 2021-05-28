@@ -118,6 +118,7 @@ While constructing the model, a few techniques were used to surpass our goal of 
 </li>
 
 </ul>
+![image](https://user-images.githubusercontent.com/7797349/120051088-25052c00-bfd4-11eb-92f9-02e6afae217e.png)
 
 <p align="center"> <strong>CONV2D_1 -> 28 x 28 x 1  || (3x3x1) x16  || 26 x 26 x 16  </strong> </p>
 <p align="center"> <strong>CONV2D_2 -> 26 x 26 x 16 || (3x3x16) x16 || 24 x 24 x 16   </strong> </p>
