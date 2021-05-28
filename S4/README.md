@@ -1,5 +1,5 @@
 # Two part Assignment README Links
-- Part -1 : Implimentation of Neural Network in a Spread Sheet
+- [Part -1](https://github.com/madhucharan/EVA6/blob/main/S4/README.md#part-1) : Implimentation of Neural Network in a Spread Sheet
 - Part -2 : Training MNIST Dataset with Neural Network with less than 20k parameters and achieve greater than 99.4% accuracy.
 
 
@@ -80,3 +80,6 @@ In the image, we have the following main components:
 - [![E-total-1-0.png](https://i.postimg.cc/gjYwDMFy/E-total-1-0.png)](https://postimg.cc/k6pXMv5D)
 - Learning Rate ![formula](https://render.githubusercontent.com/render/math?math=\eta%20=%202) :
 - [![E-total-2-0.png](https://i.postimg.cc/dtN72mWd/E-total-2-0.png)](https://postimg.cc/KRLvFLhv)
+
+
+# <h1 align = "center">PART-2</h1>
