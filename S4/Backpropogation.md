@@ -5,20 +5,20 @@ In this assignment, we have made use of the Gradient Descend to train a Neural N
 In the image, we have the following main components:
 
 IMAGE SCREENSHOT OF NETWORK
-- Inputs ( i1 and i2)
-- Weights (w1, w2,w3,w4,w5,w6,w7,w8)
-- Hidden Neurons (h1, h2)
-- Output Neurons (o1, o2)
-- Activated Neurons (out_h1, out_h2, out_o1, out_o2)
-- Error because of outputs (E1, E2)
-- Total Error (E_total)
+- Inputs ( ![formula](https://render.githubusercontent.com/render/math?math=i_1) and ![formula](https://render.githubusercontent.com/render/math?math=i_2))
+- Weights (![formula](https://render.githubusercontent.com/render/math?math=w_1),![formula](https://render.githubusercontent.com/render/math?math=w_2),![formula](https://render.githubusercontent.com/render/math?math=w_3),![formula](https://render.githubusercontent.com/render/math?math=w_4),![formula](https://render.githubusercontent.com/render/math?math=w_5),![formula](https://render.githubusercontent.com/render/math?math=w_6),![formula](https://render.githubusercontent.com/render/math?math=w_7),![formula](https://render.githubusercontent.com/render/math?math=w_8))
+- Hidden Neurons (![formula](https://render.githubusercontent.com/render/math?math=h_1),![formula](https://render.githubusercontent.com/render/math?math=h_2))
+- Output Neurons (![formula](https://render.githubusercontent.com/render/math?math=o_1), ![formula](https://render.githubusercontent.com/render/math?math=o_2))
+- Activated Neurons (![formula](https://render.githubusercontent.com/render/math?math=out_{h1}),![formula](https://render.githubusercontent.com/render/math?math=out_{h2}),![formula](https://render.githubusercontent.com/render/math?math=out_{o1}),![formula](https://render.githubusercontent.com/render/math?math=out_{o2}))
+- Error because of outputs (![formula](https://render.githubusercontent.com/render/math?math=E_{1}),![formula](https://render.githubusercontent.com/render/math?math=E_{2}))
+- Total Error (![formula](https://render.githubusercontent.com/render/math?math=E_{total}))
 - There's no bias!
 
 ## Forward Propagation
 
-- We start with our inital inputs as i1 = 0.05 and i2 = 0.1
-- The outputs we want to acheive are t1 = 0.01 and t2 = 0.99 
-- The initial weights are w1 = 0.15 , w2 = 0.2 , w3 = 0.25 , w4 = 0.3
+- We start with our inital inputs as ![formula](https://render.githubusercontent.com/render/math?math=i_1%20=%200.05) and ![formula](https://render.githubusercontent.com/render/math?math=i_2%20=%200.1)
+- The outputs we want to acheive are ![formula](https://render.githubusercontent.com/render/math?math=t_1%20=%200.01) and ![formula](https://render.githubusercontent.com/render/math?math=t_2%20=%200.99) 
+- The initial weights are ![formula](https://render.githubusercontent.com/render/math?math=w_1%20=%200.15) ,![formula](https://render.githubusercontent.com/render/math?math=%20w_2%20=%200.2) , ![formula](https://render.githubusercontent.com/render/math?math=w_3%20=%200.25) , ![formula](https://render.githubusercontent.com/render/math?math=w_4%20=%200.3)
 - We perform a FORWARD PASS through the network
 - The h1 is calulated by: ![formula](https://render.githubusercontent.com/render/math?math=h_{1}%20=%20i_{1}\times%20w_{1}%2Bi_{2}\times%20w_{2})
 - Similarly, h2 is calulated by: ![formula](https://render.githubusercontent.com/render/math?math=h_{2}%20=%20i_{1}\times%20w_{3}%2Bi_{2}\times%20w_{4})
