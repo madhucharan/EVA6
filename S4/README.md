@@ -83,7 +83,7 @@ In the image, we have the following main components:
 - [![E-total-1-0.png](https://i.postimg.cc/gjYwDMFy/E-total-1-0.png)](https://postimg.cc/k6pXMv5D)
 - Learning Rate ![formula](https://render.githubusercontent.com/render/math?math=\eta%20=%202) :
 - [![E-total-2-0.png](https://i.postimg.cc/dtN72mWd/E-total-2-0.png)](https://postimg.cc/KRLvFLhv)
-
+- [![summary.png](https://i.postimg.cc/D0Xg1k7W/summary.png)](https://postimg.cc/H8TXCNcH)
 
 # <h1 align = "center">PART-2</h1>
 
@@ -118,7 +118,6 @@ While constructing the model, a few techniques were used to surpass our goal of 
 </li>
 
 </ul>
-[![summary.png](https://i.postimg.cc/D0Xg1k7W/summary.png)](https://postimg.cc/H8TXCNcH)
 
 
 <p align="center"> <strong>CONV2D_1 -> 28 x 28 x 1  || (3x3x1) x16  || 26 x 26 x 16  </strong> </p>
