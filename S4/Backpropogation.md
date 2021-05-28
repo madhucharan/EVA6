@@ -4,8 +4,7 @@
 In this assignment, we have made use of the Gradient Descend to train a Neural Network.
 In the image, we have the following main components:
 
-IMAGE SCREENSHOT OF NETWORK
-- Inputs ( ![formula](https://render.githubusercontent.com/render/math?math=i_1) and ![formula](https://render.githubusercontent.com/render/math?math=i_2))
+[![Screen-Shot-2021-05-28-at-10-37-20-PM.png](https://i.postimg.cc/mrvJsjvf/Screen-Shot-2021-05-28-at-10-37-20-PM.png)](https://postimg.cc/hJ0p8L4p)- Inputs ( ![formula](https://render.githubusercontent.com/render/math?math=i_1) and ![formula](https://render.githubusercontent.com/render/math?math=i_2))
 - Weights (![formula](https://render.githubusercontent.com/render/math?math=w_1),![formula](https://render.githubusercontent.com/render/math?math=w_2),![formula](https://render.githubusercontent.com/render/math?math=w_3),![formula](https://render.githubusercontent.com/render/math?math=w_4),![formula](https://render.githubusercontent.com/render/math?math=w_5),![formula](https://render.githubusercontent.com/render/math?math=w_6),![formula](https://render.githubusercontent.com/render/math?math=w_7),![formula](https://render.githubusercontent.com/render/math?math=w_8))
 - Hidden Neurons (![formula](https://render.githubusercontent.com/render/math?math=h_1),![formula](https://render.githubusercontent.com/render/math?math=h_2))
 - Output Neurons (![formula](https://render.githubusercontent.com/render/math?math=o_1), ![formula](https://render.githubusercontent.com/render/math?math=o_2))
@@ -62,14 +61,14 @@ IMAGE SCREENSHOT OF NETWORK
 
 - The rate at which updation of weights takes place is controlled by the learning rate ![formula](https://render.githubusercontent.com/render/math?math=\eta)
 - Learning Rate ![formula](https://render.githubusercontent.com/render/math?math=\eta%20=%200.1) :
-- GRAPH
+- [![Screen-Shot-2021-05-28-at-10-39-04-PM.png](https://i.postimg.cc/DzL5qTMH/Screen-Shot-2021-05-28-at-10-39-04-PM.png)](https://postimg.cc/cK1QSVZB)
 - Learning Rate ![formula](https://render.githubusercontent.com/render/math?math=\eta%20=%200.2) :
-- GRAPH
+- [![E-total-0-2.png](https://i.postimg.cc/bvJtXVsm/E-total-0-2.png)](https://postimg.cc/WdB3gnmZ)
 - Learning Rate ![formula](https://render.githubusercontent.com/render/math?math=\eta%20=%200.5) :
-- GRAPH
+- [![E-total-0-5.png](https://i.postimg.cc/tJPr34bn/E-total-0-5.png)](https://postimg.cc/YLrfkkht)
 - Learning Rate ![formula](https://render.githubusercontent.com/render/math?math=\eta%20=%200.8) :
-- GRAPH
+- [![E-total-0-8.png](https://i.postimg.cc/ncF7YLn8/E-total-0-8.png)](https://postimg.cc/mhntTBcV)
 - Learning Rate ![formula](https://render.githubusercontent.com/render/math?math=\eta%20=%201) :
-- GRAPH
+- [![E-total-1-0.png](https://i.postimg.cc/gjYwDMFy/E-total-1-0.png)](https://postimg.cc/k6pXMv5D)
 - Learning Rate ![formula](https://render.githubusercontent.com/render/math?math=\eta%20=%202) :
-- GRAPH
+- [![E-total-2-0.png](https://i.postimg.cc/dtN72mWd/E-total-2-0.png)](https://postimg.cc/KRLvFLhv)
