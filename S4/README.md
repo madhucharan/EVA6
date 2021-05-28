@@ -68,7 +68,7 @@ In the image, we have the following main components:
 ## Learing Rate
 
 - The rate at which updation of weights takes place is controlled by the learning rate. Learning rate is the step size to move towards the minimum of a loss function.
-- A low learning rate will make the training time longer where as the very high learning rate might miss the local minimum of loss function and diverge.Hence an optimal learning rate needs to be chosen inorder to train the network quickly to attain the best accuracy.
+- A low learning rate will make the training time longer where as  very high learning rate might miss the local minimum of loss function and diverge.Hence an optimal learning rate needs to be chosen inorder to train the network quickly to attain the best accuracy.
 - We noticed a steep decrease in loss as the learning rate was increased from 0.1 to 2.
 -  ![formula](https://render.githubusercontent.com/render/math?math=\eta)
 - Learning Rate ![formula](https://render.githubusercontent.com/render/math?math=\eta%20=%200.1) :
