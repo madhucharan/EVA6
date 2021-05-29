@@ -97,10 +97,11 @@ In the image, we have the following main components:
 
 ## Model Construction 
 
-#### Model Definition
-While constructing the model, a few techniques were used to surpass our goal of 99.4% validation accuracy. Our model contains 2 blocks with a transition layer in between. 
+#### Model Architecture
 - [![summary.png](https://i.postimg.cc/D0Xg1k7W/summary.png)](https://postimg.cc/H8TXCNcH)
 <ul>
+While constructing the model, a few techniques were used to surpass our goal of 99.4% validation accuracy. Our model contains 2 blocks with a transition layer in between. 
+
 <li> <p><b>Batch Normalization</b></p>
 <p>We apply Batch normalization at every layer to normalize the inputs to the next layer. </p>
 </li>
@@ -149,7 +150,7 @@ In Transition layers we are combining the simple features we have extracted in p
       transforms.Normalize((0.1307,), (0.3081,))
       
 ### Conclusion
-
+The model has achieved 99.4% accuracy with less than 20K parameters and well within 20 epochs by the help of Batch Normalization, Drop out and Global Averge Pooling.
 
 Team Members :
 
