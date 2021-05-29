@@ -156,9 +156,11 @@ In Transition layers we are combining the simple features we have extracted in p
 ### Conclusion
 The model has achieved 99.4% accuracy with less than 20K parameters and well within 20 epochs by the help of Batch Normalization, Drop out and Global Averge Pooling.
 
--No of Parameters :  19714
--Best Train Accuracy: 100 
--Best Test Accuracy:  99.49
+No of Parameters :  19714
+
+Best Train Accuracy: 100 
+
+Best Test Accuracy:  99.49
 
 Team Members :
 
