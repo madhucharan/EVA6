@@ -150,15 +150,15 @@ In Transition layers we are combining the simple features we have extracted in p
       transforms.Normalize((0.1307,), (0.3081,))
       
 ## Plots
--![image](https://user-images.githubusercontent.com/7797349/120055581-ebd8b600-bfeb-11eb-865f-67c84082ecac.png)
+![image](https://user-images.githubusercontent.com/7797349/120055581-ebd8b600-bfeb-11eb-865f-67c84082ecac.png)
 
       
 ### Conclusion
 The model has achieved 99.4% accuracy with less than 20K parameters and well within 20 epochs by the help of Batch Normalization, Drop out and Global Averge Pooling.
 
-No of Parameters :  19714
-Best Train Accuracy 100 
-Best Test Accuracy 99.49
+-No of Parameters :  19714
+-Best Train Accuracy: 100 
+-Best Test Accuracy:  99.49
 
 Team Members :
 
