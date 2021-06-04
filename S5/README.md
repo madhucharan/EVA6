@@ -132,10 +132,21 @@ Reduced the parameters
 # Step-6
 
 ### Target
+1. Set the architecture to reduce the parameters under 10k.
 
+2. Get Consitent Accuracy 99.4% / reduce fluctuations.
 ### Result
+1. Highest Train Accuracy -98.28
 
+2. Highest test Accuracy - 99.41
+
+3. No of Parameters - 9.5k
 ### Analysis
+1. Reduced the dropout to 0.04
+
+2. The accuracy is consistent
+
+3. Applied Step lr to reduce fluctuations and Image Augmentation Techniques
 
 ### Plots for Step-6
 ---
