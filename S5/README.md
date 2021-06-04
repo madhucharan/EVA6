@@ -149,6 +149,9 @@ Reduced the parameters
 3. Applied Step lr to reduce fluctuations and Image Augmentation Techniques
 
 ### Plots for Step-6
+
+![download (4)](https://user-images.githubusercontent.com/62477860/120856902-1a333400-c59e-11eb-91da-3a2ad14ff7c8.png)
+
 ---
 <h3 align="center">Thank you</h3>
 
