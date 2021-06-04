@@ -144,7 +144,7 @@ Reduced the parameters
 ---
 # Team
 - Madhu Charan
-- Siddarth Aggarwal
+- Siddharth Aggarwal
 - Sijuade Oguntayo
 - Deepika
 
