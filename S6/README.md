@@ -14,7 +14,7 @@ The different normalization methods work to standardise the input to a layer for
 batch_size = 4
 num_channels =  6 
 
-## Batch Norm
+## Batch Norm ( with L1 )
 For each layer, the parameters mu and sigma are calculated by taking the mean and variance respectively, of each channel across all the input images within a batch. 
 
 ### Output
@@ -56,7 +56,7 @@ We notice that Group & Layer normalization perform well in lower epochs, all 3 e
 ## Misclassified Images
 
 ---
-<h2 align="center">Batch Normalization<h2>
+<h2 align="center">Batch Normalization (with L1)<h2>
 ---
 
 ![enter image description here](https://i.postimg.cc/d3v4b0WX/image.png)
