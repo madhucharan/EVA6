@@ -1,5 +1,8 @@
 <h1 align="center"> Normalization</h1>
 
+1. [Plots]()
+2. [Misclasified Images]()
+
 ## What is your code all about
 
 The Net class defines a torch model with the architecture specified. When calling the object, an argument is passed specifying the type of normalisation layers to implement. The norm_layer function is called from within the model definition and returns the appropriate normalisation technique. 
@@ -42,6 +45,8 @@ number of grouped channels by number of images.
 ##### Example
 Output then is mu and sigma of size (3,4) each.
 
+
+# Accuracy and Loss Plots
 
 ![enter image description here](https://i.postimg.cc/nV7yNjLd/image.png)
 
