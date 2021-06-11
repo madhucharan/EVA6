@@ -40,3 +40,13 @@ number of grouped channels by number of images.
 
 ##### Example
 Output then is mu and sigma of size (3,4) each.
+
+
+
+
+
+### Our Team
+- [Madhu Charan](https://github.com/madhucharan)
+- [Sijuade](https://github.com/cydal)
+- [Siddharth Aggarwal](https://github.com/aggarwalsiddharth)
+- [Deepika](https://github.com/dpkeee)
