@@ -1,9 +1,10 @@
+<h1 align="center"> Normalization</h1>
 
-# What is your code all about
+## What is your code all about
 
 The Net class defines a torch model with the architecture specified. When calling the object, an argument is passed specifying the type of normalisation layers to implement. The norm_layer function is called from within the model definition and returns the appropriate normalisation technique. 
 
-# How to perform the 3 covered normalization (cannot use values from the excel sheet shared)
+## How to perform the 3 covered normalization (cannot use values from the excel sheet shared)
 
 The different normalization methods work to standardise the input to a layer for each mini-batch. 
 
@@ -49,15 +50,22 @@ We notice that Group & Layer normalization perform well in lower epochs, all 3 e
 
 ## Misclassified Images
 
-### Batch Normalization
+---
+<h2 align="center">Batch Normalization<h2>
+---
 
 ![enter image description here](https://i.postimg.cc/d3v4b0WX/image.png)
 
-### Group Normalization
+---
+<h2 align="center">Group Normalization<h2>
+---
+  
 ![enter image description here](https://i.postimg.cc/13gcY6mX/image.png)
 
-### Layer Normalization
-
+---
+<h2 align="center">Layer Normalization<h2>
+---
+  
 ![enter image description here](https://i.postimg.cc/L8ZLVpDZ/image.png)
 
 
