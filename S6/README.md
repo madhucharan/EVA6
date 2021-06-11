@@ -21,7 +21,9 @@ For each layer, the parameters mu and sigma are calculated by taking the mean an
 For this reason, the output is a mu and sigma for each channel. 
 
 ##### Example
-mu & sigma of size 6 each
+mu & sigma of Batch size 4 each
+
+![image](https://user-images.githubusercontent.com/7797349/121754676-0e79cd00-caca-11eb-85b6-4ddd0049db49.png)
 
 
 ## Layer Norm 
