@@ -34,6 +34,8 @@ The output then is a mu and sigma for each image in the batch.
 ##### Example
 mu & sigma of size 4 each
 
+![image](https://user-images.githubusercontent.com/7797349/121755709-bee8d080-cacc-11eb-984e-504eecd8a3d3.png)
+
 
 ## Group Norm
 Group norm is somewhat of a combination of the two concepts described above. The parameters are calculated by taking the mean and variance for each image, and for a user defined group of channels. This includes one group of all the channels (which would make it identical to Layer Norm), group of individual channels (identical to Instance Norm). 
@@ -46,6 +48,10 @@ number of grouped channels by number of images.
 
 ##### Example
 Output then is mu and sigma of size (3,4) each.
+
+![image](https://user-images.githubusercontent.com/7797349/121755932-56e6ba00-cacd-11eb-902f-65f1375bcc3b.png)
+![image](https://user-images.githubusercontent.com/7797349/121755956-6534d600-cacd-11eb-82a9-cef57ee5605f.png)
+
 
 
 # Accuracy and Loss Plots
