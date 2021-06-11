@@ -1,7 +1,7 @@
 <h1 align="center"> Normalization</h1>
 
 1. [Plots](https://github.com/madhucharan/EVA6/blob/main/S6/README.md#accuracy-and-loss-plots)
-2. [Misclasified Images](https://github.com/madhucharan/EVA6/blob/main/S6/README.md#misclassified-images)
+2. [Misclassified Images](https://github.com/madhucharan/EVA6/blob/main/S6/README.md#misclassified-images)
 
 ## What is your code all about
 
