@@ -1,5 +1,5 @@
 
-# what is your code all about
+# What is your code all about
 
 The Net class defines a torch model with the architecture specified. When calling the object, an argument is passed specifying the type of normalisation layers to implement. The norm_layer function is called from within the model definition and returns the appropriate normalisation technique. 
 
@@ -41,6 +41,24 @@ number of grouped channels by number of images.
 ##### Example
 Output then is mu and sigma of size (3,4) each.
 
+
+![enter image description here](https://i.postimg.cc/nV7yNjLd/image.png)
+
+We notice that Group & Layer normalization perform well in lower epochs, all 3 eventually converge by the time we get to the 20th epoch. It should also be noted that batch normalization appears to perform better at the start up until around the second epoch. 
+
+
+## Misclassified Images
+
+### Batch Normalization
+
+![enter image description here](https://i.postimg.cc/d3v4b0WX/image.png)
+
+### Group Normalization
+![enter image description here](https://i.postimg.cc/13gcY6mX/image.png)
+
+### Layer Normalization
+
+![enter image description here](https://i.postimg.cc/L8ZLVpDZ/image.png)
 
 
 
