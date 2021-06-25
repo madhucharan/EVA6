@@ -36,10 +36,10 @@
 
 # **Project Files**
 
-> [model.py](model.py) - Contains model architecture
-> [augment.py](augment.py) - Albumentations augmentation definition
-> [utils.py](utils.py) - General utility files
-> [dataset.py](dataset.py) - Cifar10 dataset class definition
+- [model.py](model.py) - Contains model architecture
+- [augment.py](augment.py) - Albumentations augmentation definition
+- [utils.py](utils.py) - General utility files
+- [dataset.py](dataset.py) - Cifar10 dataset class definition
 
 
 ### Output Shape Param 
@@ -297,16 +297,16 @@ Loss=0.5213862061500549 Batch_id=223 Accuracy=79.66:  57%|█████▋    
 
 ## Results Achieved 
 
-> Best Training Accuracy - 79.66
-> Best Test Accuracy - 85.20
-> Total Number of Parameters - 99,956
-> Number of Epochs - 269
-> Receptor Field Calculation - 87
+* Best Training Accuracy - 79.66
+* Best Test Accuracy - 85.20
+* Total Number of Parameters - 99,956
+* Number of Epochs - 269
+* Receptor Field Calculation - 87
 
 
 ## Comment
-> Model is not overfitting
-> Late assignment requirements attempted but early assignment results
-> Model trained for 300 epochs achieves 87% but Colab crashed the final time it was trained
+- Model is not overfitting
+- Late assignment requirements attempted but early assignment results
+- Model trained for 300 epochs achieves 87% but Colab crashed the final time it was trained
 
 
