@@ -310,3 +310,11 @@ Loss=0.5213862061500549 Batch_id=223 Accuracy=79.66:  57%|█████▋    
 - Model trained for 300 epochs achieves 87% but Colab crashed the final time it was trained
 
 
+
+
+---
+### Our Team
+- [Madhu Charan](https://github.com/madhucharan)
+- [Sijuade](https://github.com/cydal)
+- [Siddharth Aggarwal](https://github.com/aggarwalsiddharth)
+- [Deepika](https://github.com/dpkeee)
