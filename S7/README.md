@@ -215,7 +215,7 @@ test_transform = A.Compose([
 
 
 ## Training Log (Last 15 epochs)
-
+```
 EPOCH: 254
 Loss=0.48513874411582947 Batch_id=390 Accuracy=78.99: 100%|██████████| 391/391 [00:23<00:00, 16.32it/s]
   0%|          | 0/391 [00:00<?, ?it/s]
@@ -293,7 +293,7 @@ Test set: Average loss: 0.0034, Accuracy: 8520/10000 (85.20%)
 
 EPOCH: 269
 Loss=0.5213862061500549 Batch_id=223 Accuracy=79.66:  57%|█████▋    | 224/391 [23:41<14:57:46, 322.55s/it]
-
+```
 
 ## Results Achieved 
 
