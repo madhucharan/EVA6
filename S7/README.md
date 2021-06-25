@@ -177,16 +177,127 @@ test_transform = A.Compose([
 * Depth-Wise separable convolution used in multiple places
 * Dilation of 2 applied in multiple places
 
-## Loss & Accuracy Plots
+## Receptive Field
+| Operation | K | P | S | nin | nout | channel_in | channel_out | dilation | jin | jout | rin | rout |
+|-----------|---|---|---|-----|------|------------|-------------|----------|-----|------|-----|------|
+| Conv      | 3 | 1 | 1 | 32  | 32   | 3          | 32          | 1        | 1   | 1    | 1   | 3    |
+| ConvDS    | 3 | 1 | 1 | 32  | 32   | 32         | 32          | 1        | 1   | 1    | 3   | 5    |
+| ConvP     | 1 | 1 | 1 | 32  | 34   | 32         | 32          | 1        | 1   | 1    | 5   | 5    |
+| ConvDS    | 3 | 1 | 1 | 34  | 34   | 32         | 32          | 1        | 1   | 1    | 5   | 7    |
+| ConvP     | 1 | 1 | 1 | 34  | 36   | 32         | 32          | 1        | 1   | 1    | 7   | 7    |
+| ConvDS    | 3 | 1 | 1 | 36  | 36   | 32         | 32          | 1        | 1   | 1    | 7   | 9    |
+| ConvP     | 1 | 1 | 1 | 36  | 38   | 32         | 32          | 1        | 1   | 1    | 9   | 9    |
+| Conv      | 3 | 0 | 2 | 38  | 17   | 32         | 32          | 2        | 1   | 2    | 9   | 11   |
+| Conv      | 3 | 1 | 1 | 17  | 17   | 32         | 64          | 1        | 2   | 2    | 11  | 15   |
+| ConvDS    | 3 | 1 | 1 | 17  | 17   | 64         | 64          | 1        | 2   | 2    | 15  | 19   |
+| ConvP     | 1 | 1 | 1 | 17  | 19   | 64         | 64          | 1        | 2   | 2    | 19  | 19   |
+| ConvDS    | 3 | 1 | 1 | 19  | 19   | 64         | 64          | 1        | 2   | 2    | 19  | 23   |
+| ConvP     | 1 | 1 | 1 | 19  | 21   | 64         | 64          | 1        | 2   | 2    | 23  | 23   |
+| ConvDS    | 3 | 1 | 1 | 21  | 21   | 64         | 64          | 1        | 2   | 2    | 23  | 27   |
+| ConvP     | 1 | 1 | 1 | 21  | 23   | 64         | 64          | 1        | 2   | 2    | 27  | 27   |
+| Conv      | 3 | 0 | 2 | 23  | 10   | 64         | 16          | 2        | 2   | 4    | 27  | 31   |
+| Conv      | 3 | 1 | 1 | 10  | 10   | 16         | 32          | 1        | 4   | 4    | 31  | 39   |
+| ConvDS    | 3 | 1 | 1 | 10  | 10   | 32         | 32          | 1        | 4   | 4    | 39  | 47   |
+| ConvP     | 1 | 1 | 1 | 10  | 12   | 32         | 32          | 1        | 4   | 4    | 47  | 47   |
+| ConvDS    | 3 | 1 | 1 | 12  | 12   | 32         | 32          | 1        | 4   | 4    | 47  | 55   |
+| ConvP     | 1 | 1 | 1 | 12  | 14   | 32         | 32          | 1        | 4   | 4    | 55  | 55   |
+| ConvDS    | 3 | 1 | 1 | 14  | 14   | 32         | 32          | 1        | 4   | 4    | 55  | 63   |
+| ConvP     | 1 | 1 | 1 | 14  | 16   | 32         | 32          | 1        | 4   | 4    | 63  | 63   |
+| Conv      | 3 | 0 | 2 | 16  | 6    | 32         | 32          | 2        | 4   | 8    | 63  | 71   |
+| Conv      | 3 | 0 | 1 | 6   | 4    | 32         | 32          | 1        | 8   | 8    | 71  | 87   |
 
 
-## Training Log 
+## Training Log (Last 15 epochs)
+
+EPOCH: 254
+Loss=0.48513874411582947 Batch_id=390 Accuracy=78.99: 100%|██████████| 391/391 [00:23<00:00, 16.32it/s]
+  0%|          | 0/391 [00:00<?, ?it/s]
+Test set: Average loss: 0.0034, Accuracy: 8507/10000 (85.07%)
+
+EPOCH: 255
+Loss=0.5073024034500122 Batch_id=390 Accuracy=79.17: 100%|██████████| 391/391 [00:23<00:00, 16.39it/s]
+  0%|          | 0/391 [00:00<?, ?it/s]
+Test set: Average loss: 0.0034, Accuracy: 8524/10000 (85.24%)
+
+EPOCH: 256
+Loss=0.5886918902397156 Batch_id=390 Accuracy=79.01: 100%|██████████| 391/391 [00:23<00:00, 16.34it/s]
+  0%|          | 0/391 [00:00<?, ?it/s]
+Test set: Average loss: 0.0034, Accuracy: 8550/10000 (85.50%)
+
+EPOCH: 257
+Loss=0.6579458117485046 Batch_id=390 Accuracy=79.19: 100%|██████████| 391/391 [00:23<00:00, 16.37it/s]
+  0%|          | 0/391 [00:00<?, ?it/s]
+Test set: Average loss: 0.0036, Accuracy: 8460/10000 (84.60%)
+
+EPOCH: 258
+Loss=0.5604768395423889 Batch_id=390 Accuracy=79.17: 100%|██████████| 391/391 [00:24<00:00, 16.27it/s]
+  0%|          | 0/391 [00:00<?, ?it/s]
+Test set: Average loss: 0.0034, Accuracy: 8519/10000 (85.19%)
+
+EPOCH: 259
+Loss=0.8374205827713013 Batch_id=390 Accuracy=79.24: 100%|██████████| 391/391 [00:23<00:00, 16.45it/s]
+  0%|          | 0/391 [00:00<?, ?it/s]
+Test set: Average loss: 0.0034, Accuracy: 8504/10000 (85.04%)
+
+EPOCH: 260
+Loss=0.5479215383529663 Batch_id=390 Accuracy=79.26: 100%|██████████| 391/391 [00:24<00:00, 16.23it/s]
+  0%|          | 0/391 [00:00<?, ?it/s]
+Test set: Average loss: 0.0035, Accuracy: 8487/10000 (84.87%)
+
+EPOCH: 261
+Loss=0.5098845362663269 Batch_id=390 Accuracy=79.39: 100%|██████████| 391/391 [00:23<00:00, 16.35it/s]
+  0%|          | 0/391 [00:00<?, ?it/s]
+Test set: Average loss: 0.0035, Accuracy: 8534/10000 (85.34%)
+
+EPOCH: 262
+Loss=0.7909579873085022 Batch_id=390 Accuracy=79.09: 100%|██████████| 391/391 [00:23<00:00, 16.32it/s]
+  0%|          | 0/391 [00:00<?, ?it/s]
+Test set: Average loss: 0.0033, Accuracy: 8528/10000 (85.28%)
+
+EPOCH: 263
+Loss=0.49288877844810486 Batch_id=390 Accuracy=79.06: 100%|██████████| 391/391 [00:23<00:00, 16.32it/s]
+  0%|          | 0/391 [00:00<?, ?it/s]
+Test set: Average loss: 0.0034, Accuracy: 8550/10000 (85.50%)
+
+EPOCH: 264
+Loss=0.48313555121421814 Batch_id=390 Accuracy=79.21: 100%|██████████| 391/391 [00:23<00:00, 16.38it/s]
+  0%|          | 0/391 [00:00<?, ?it/s]
+Test set: Average loss: 0.0034, Accuracy: 8533/10000 (85.33%)
+
+EPOCH: 265
+Loss=0.7641388177871704 Batch_id=390 Accuracy=78.96: 100%|██████████| 391/391 [00:23<00:00, 16.44it/s]
+  0%|          | 0/391 [00:00<?, ?it/s]
+Test set: Average loss: 0.0034, Accuracy: 8490/10000 (84.90%)
+
+EPOCH: 266
+Loss=0.6971480846405029 Batch_id=390 Accuracy=79.20: 100%|██████████| 391/391 [00:23<00:00, 16.39it/s]
+  0%|          | 0/391 [00:00<?, ?it/s]
+Test set: Average loss: 0.0034, Accuracy: 8535/10000 (85.35%)
+
+EPOCH: 267
+Loss=0.3924857974052429 Batch_id=390 Accuracy=79.35: 100%|██████████| 391/391 [00:24<00:00, 16.29it/s]
+  0%|          | 0/391 [00:00<?, ?it/s]
+Test set: Average loss: 0.0034, Accuracy: 8529/10000 (85.29%)
+
+EPOCH: 268
+Loss=0.48865407705307007 Batch_id=390 Accuracy=79.40: 100%|██████████| 391/391 [00:24<00:00, 16.28it/s]
+  0%|          | 0/391 [00:00<?, ?it/s]
+Test set: Average loss: 0.0034, Accuracy: 8520/10000 (85.20%)
+
+EPOCH: 269
+Loss=0.5213862061500549 Batch_id=223 Accuracy=79.66:  57%|█████▋    | 224/391 [23:41<14:57:46, 322.55s/it]
 
 
 ## Results Achieved 
 
-Best Training Accuracy - 
-Best Training Accuracy - 
-Total Number of Parameters - 
-Number of Epochs - 
-Receptor Field Calculation - 
+Best Training Accuracy - 79.66
+Best Test Accuracy - 85.20
+Total Number of Parameters - 99,956
+Number of Epochs - 269
+Receptor Field Calculation - 87
+
+
+## Comment
+Model is not overfitting
+Late assignment requirements attempted but early assignment results
+Model trained for 300 epochs achieves 87% but Colab crashed the final time it was trained
