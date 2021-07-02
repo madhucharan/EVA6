@@ -33,7 +33,7 @@ Assignment:
         4.  show gradcam output on 10 misclassified images.  **Remember if you are applying GradCAM on a channel that is less than 5px, then please don't bother to submit the assignment. 😡🤬🤬🤬🤬**
     5.  Once done, upload the code to GitHub, and share the code. This readme must link to the main repo so we can read your file structure.
 
-### Project files
+## Project files (Module Code)
 
 > ! git clone https://github.com/cydal/Pytorch_CIFAR10_gradcam.git
 
@@ -44,8 +44,7 @@ Assignment:
 
 ### Model Summary
 
-----------Model Summary----------
-  0%|          | 0/391 [00:00<?, ?it/s]----------------------------------------------------------------
+```
         Layer (type)               Output Shape         Param #
 ================================================================
             Conv2d-1           [-1, 64, 36, 36]           1,728
@@ -107,11 +106,11 @@ Forward/backward pass size (MB): 16.96
 Params size (MB): 42.63
 Estimated Total Size (MB): 59.59
 ----------------------------------------------------------------
+```
 
-### Model Training
+## Model Training 
 
 ```
-----------Training Model----------
 EPOCH: 0
 Loss=1.7113145589828491 Batch_id=390 Accuracy=30.26: 100%|██████████| 391/391 [01:30<00:00,  4.31it/s]
   0%|          | 0/391 [00:00<?, ?it/s]
