@@ -110,6 +110,7 @@ Estimated Total Size (MB): 59.59
 
 ### Model Training
 
+```
 ----------Training Model----------
 EPOCH: 0
 Loss=1.7113145589828491 Batch_id=390 Accuracy=30.26: 100%|██████████| 391/391 [01:30<00:00,  4.31it/s]
@@ -210,7 +211,7 @@ EPOCH: 19
 Loss=0.8335630297660828 Batch_id=390 Accuracy=70.68: 100%|██████████| 391/391 [01:29<00:00,  4.35it/s]
 
 Test set: Average loss: 0.0037, Accuracy: 8520/10000 (85.20%)
-
+```
 
 ![enter image description here](https://i.postimg.cc/y87KzW0q/image.png)
 
