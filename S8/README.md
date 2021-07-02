@@ -160,4 +160,12 @@ Test set: Average loss: 0.0037, Accuracy: 8520/10000 (85.20%)
 Misclassified Classes Heatmap
 ![enter image description here](https://i.postimg.cc/vmW5xqcx/image.png)
 
+
+### Our Team
+- [Madhu Charan](https://github.com/madhucharan)
+- [Sijuade](https://github.com/cydal)
+- [Siddharth Aggarwal](https://github.com/aggarwalsiddharth)
+- [Deepika](https://github.com/dpkeee)
+---
+
 > Written with [StackEdit](https://stackedit.io/).
