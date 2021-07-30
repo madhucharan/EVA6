@@ -9,8 +9,7 @@
 - All the three are indirect representations of input image
 - Before proceeding, input image is divided into patches i.e several smaller parts to be passed as an input one by one into the attention network
 - The process is as follows with an example
-    - Let us consider a 8X8 Image divided into 16 parts i.e we have 16 2X2 images
-    - Each 2X2 is called a __patch__
+    - Let us consider an Image divided into 16x16 patches _(see the example image below on how we made a 3X3 image into 9 patches)_
     - Each patch is passed as an input to the 3 different neural networks that produces 3 outputs __keys__(K),__values__(V) and __query__(Q)
     - Now we have 3 different outputs from the networks
     - As the next process, we will have to perform a matrix multiplication for K and Q followed by a softmax operation.
